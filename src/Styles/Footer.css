@@ -1,0 +1,87 @@
+#footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--VeryDarkBlue);
+    padding: 0 4rem;
+}
+.footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+    padding: 20px;
+}
+.logo_icons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.logofill{
+    fill: white;
+}
+.social_icons{
+    display: flex;
+    column-gap: .5rem;
+}
+.social_icons img{
+    width: 20px;
+    height: 20px;
+}
+.first_list ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    color: #fff;
+    text-align: start;
+}
+.second_list ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    color: #fff;
+}
+.input_btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.input-b{
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+    position: relative;
+}
+.input-b input{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.input-b input::placeholder{
+    color: var(--VeryDarkBlue);
+}
+.input-b p{
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--BrightRed);
+    text-align: center;
+}
+.errormess{
+    position: absolute;
+    margin-top: 4rem;
+    color: var(--BrightRed);
+    display: block;
+    font-size: 10px;
+    margin-right: 0px;
+}
+.errormess.error{
+    
+}
+.input_btn h1{
+    font-size: 10px;
+    color: var(--DarkGrayishBlue);
+}
